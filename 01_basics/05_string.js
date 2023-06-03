@@ -23,3 +23,22 @@ console.log(portfolioName.indexOf('t'));
 
 const newSrting = portfolioName.slice(0,3)
 console.log(newSrting);  
+
+const user = "     Satyam     "   //when you have to remove the unwanted spaces from String...use trim() method
+
+console.log(user.trim());     // we can use trimStart and trimEnd too
+
+
+const url = "https://satyam.com/satyam%20karn"
+
+console.log(url.replace('%20' , '-'))   // replaces with hiphen(-)
+
+// to check whether string inlcudes some particular char
+
+console.log(url.includes('dev'))   //false
+
+console.log(url.includes('karn'))  //true
+
+
+// Learn more about Strings at 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String'
+
