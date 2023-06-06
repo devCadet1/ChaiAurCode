@@ -40,3 +40,43 @@ function div(n1,n2) {
 }
 
 div(n1,n2)
+
+
+
+// ------------------------------- Anonymous functions ------------------------------//
+
+// A function declared without any name is called as Anonymous functions
+
+//eg
+
+const fun = function (para1, para2) {     // this is an anonymous function 
+    //block of code
+    return output
+}
+
+
+// the only difference between an function and function expression (anonymous function) is that a function supports 'Hoisting' but a function exp (anonymous function) doesnot support hoisting. 
+
+// Hoisting - The declaration of functions can be moved to the top of their scope, prior to execution of the code. It would still work. 
+
+
+
+// ------------------------------- Nested functions ------------------------------// 
+
+
+function addSquares (a,b) {
+
+    const squareA = square(a)
+    const squareB = square(b)
+
+
+    function square(num) {
+
+        return num * num;
+
+    }
+
+    return squareA + squareB
+}
+
+console.log(addSquares(3,4));
