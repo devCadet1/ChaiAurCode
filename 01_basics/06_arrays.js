@@ -1,7 +1,7 @@
 //  An array is a object that can store multiple values at once. Eg
 
 const arrayName = ['value1', 'value2', 'value3'];
-console.table(arrayName);   
+// console.table(arrayName);   
 /* output 
 ┌─────────┬──────────┐
 │ (index) │  Values  │
@@ -14,16 +14,16 @@ console.table(arrayName);
 
 
 const words = ['hello', 'satyam','welcome'];
-console.log(words)
+// console.log(words)
 /* output
 [ 'hello', 'satyam', 'welcome' ]
 */
 
 // Arrays in JavaScript can be of mixed datatypes
 
-const data = ['satyam', 24, 'Mumbai', 2023, false]   // array with Number and strings
+// const data = ['satyam', 24, 'Mumbai', 2023, false]   // array with Number and strings
 
-console.log(data);  
+// console.log(data);  
 /* output
 [ 'satyam', 24, 'Mumbai', 2023, false ]
 */
@@ -32,10 +32,10 @@ console.log(data);
 
 const myName = ['s','a','t','y','a','m']
 // first element
-console.log(myName[0]);   //output-  s
+// console.log(myName[0]);   //output-  s
 
 // second element
-console.log(myName[1]);    //output- a
+// console.log(myName[1]);    //output- a
 
 
 // ----------------------Objects in Arrays----------------------------------//
@@ -54,7 +54,8 @@ const info = [{
     }
 ]
 
-console.log(info);
+// console.log(info);
+
 
 /* 
 output
@@ -64,3 +65,11 @@ output
   { name: 'saksi', age: 24 }
 ]
 */
+
+// console.log(info.length);   // 3
+
+const array = [1,2,3,4,5,6]
+
+array.push()
+
+console.log(array);
