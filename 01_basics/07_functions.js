@@ -80,3 +80,16 @@ function addSquares (a,b) {
 }
 
 console.log(addSquares(3,4));
+
+
+
+function greet () {
+    console.log(`Hello ${user}, welcome to TASQ Homepage`);
+}
+
+
+const user = 'Tiwari'
+
+greet()
+
+
