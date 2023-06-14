@@ -1,8 +1,8 @@
 // Sync functions or code is written as
 
-console.log('Print');
-console.log('Hello');
-console.log('World');
+// console.log('Print');
+// console.log('Hello');
+// console.log('World');
 //  here the code will run according to its sequence. This is called a regular code or sync code 
 
 // Async is something which would wait for a particular function to run and then a block of code will run after the function is executed
@@ -13,4 +13,10 @@ console.log('World');
 
 // The setTimeout() method executes a block of code after the specified time.
 
+console.log('first');
 
+setTimeout(function()  {
+    console.log('This will run later');    // this is a async
+} , 3000);
+
+console.log('second');
