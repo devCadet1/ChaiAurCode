@@ -7,4 +7,10 @@ console.log('World');
 
 // Async is something which would wait for a particular function to run and then a block of code will run after the function is executed
 
+//  This can be done by setTimeOut Function
+
+// The setTimeout() method calls a function after a number of milliseconds.
+
+// The setTimeout() method executes a block of code after the specified time.
+
 
