@@ -67,7 +67,7 @@ JsUser.greeting = function () {
 }
 
 JsUser.greet = function () {
-    console.log(`Hello JS User ${this.name}`)
+    console.log(`Hello JS User ${this.name}`)   // this keyword is used to access the value from the object. Read more on mdn
 }
 
 JsUser.greet()  // Hello JS User satyam karn
