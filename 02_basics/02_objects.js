@@ -29,3 +29,27 @@ console.log(JsUser["city"]);   // thane
 console.log(JsUser["isWorking"]);   // true
 console.log(JsUser["sex"]);     // male
 console.log(JsUser["lastLoginDays"]);     // [ 'monday', 'Wednesday', 'Friday' ]
+
+
+
+// To overwrite the values of the object
+
+JsUser.name = 'satyam karn'
+console.log(JsUser.name);   // satyam karn
+
+
+//  To add a value in the object 
+
+JsUser.email = 'satyam@gmail.com'
+
+console.log(JsUser)
+//   {
+//   name: 'satyam karn',
+//   age: 25,
+//   sex: 'male',
+//   city: 'thane',
+//   isWorking: true,
+//   lastLoginDays: [ 'monday', 'Wednesday', 'Friday' ],
+//   email: 'satyam@gmail.com'
+// }
+
