@@ -55,6 +55,19 @@ console.log(JsUser)
 
 //  to freeze the object 
 
-Object.freeze(JsUser)
+// Object.freeze(JsUser)
 
 //  AFter freezing the Object, the further changes will not propogate in the object
+
+
+// Adding a function into object
+
+JsUser.greeting = function () {
+    console.log("Hello JS User");
+}
+
+JsUser.greet = function () {
+    console.log(`Hello JS User ${this.name}`)
+}
+
+JsUser.greet()  // Hello JS User satyam karn
