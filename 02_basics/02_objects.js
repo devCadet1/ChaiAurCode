@@ -53,3 +53,8 @@ console.log(JsUser)
 //   email: 'satyam@gmail.com'
 // }
 
+//  to freeze the object 
+
+Object.freeze(JsUser)
+
+//  AFter freezing the Object, the further changes will not propogate in the object
