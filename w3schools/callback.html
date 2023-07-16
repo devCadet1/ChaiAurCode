@@ -9,6 +9,7 @@
     <p>The result of the calculation is:</p>
     <p id= "text"></p>
 
+    <!-- without callback with 2 functions-->
     <!-- <script>
         
         function myResult(res){
@@ -25,8 +26,8 @@
         myResult(result)
 
     </script> -->
-
-    <script>
+    <!-- without callback with 1 function  -->
+    <!-- <script>
         function myResult(res) {
             document.getElementById('text').innerHTML = res;
         }
@@ -38,7 +39,25 @@
 
         myCalculator(4,6)
 
+    </script> -->
+
+    <!-- with callback -->
+
+    <script>
+        
+        function myResult (something){
+            document.getElementById('text').innerHTML = something
+        }
+
+        function myCalculator(n1 , n2 , myCallback) {
+            let sum = `Sum : ${n1 +n2} `
+            myCallback(sum)
+        }
+
+        myCalculator(5, 2, myResult)   // when you pass a function as an argument, remember not to use parenthesis.
+
     </script>
+
 
 
 </body>
