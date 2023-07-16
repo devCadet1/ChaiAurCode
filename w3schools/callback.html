@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>The result of the calculation is:</p>
+    <p id= "text"></p>
+
+    <script>
+        
+        function myResult(res){
+            document.getElementById('text').innerHTML = res;
+        }
+
+        function myCalculator(num1 , num2 , num3){
+            let sum = num1 + num2 + num3;
+            return sum;
+        }
+
+        let result = myCalculator(1,2,3);
+        
+        myResult(result)
+
+    </script>
+
+</body>
+</html>
