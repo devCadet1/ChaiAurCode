@@ -9,7 +9,7 @@
     <p>The result of the calculation is:</p>
     <p id= "text"></p>
 
-    <script>
+    <!-- <script>
         
         function myResult(res){
             document.getElementById('text').innerHTML = res;
@@ -24,7 +24,22 @@
         
         myResult(result)
 
+    </script> -->
+
+    <script>
+        function myResult(res) {
+            document.getElementById('text').innerHTML = res;
+        }
+
+        function myCalculator (num1, num2) {
+            let sum = num1 + num2 
+            myResult(sum)
+        }
+
+        myCalculator(4,6)
+
     </script>
+
 
 </body>
 </html>
